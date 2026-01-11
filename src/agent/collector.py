@@ -3,7 +3,7 @@ import time
 import os
 
 # Configuration
-SERVER_IP = '192.168.1.100'  # Remplacez par l'IP de votre serveur central
+SERVER_IP = '127.0.0.1'  # Remplacez par l'IP de votre serveur central
 SERVER_PORT = 5000
 HOSTNAME = socket.gethostname()
 BUFFER_FILE = '/tmp/dlc_buffer.log'
